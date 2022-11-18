@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+	padding: 0;
+}
+body{
+  background-image: linear-gradient(45deg, rgba(245, 69, 66, 0.452), rgba(8, 82, 156, 0.637)), url(number1.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  background-size: cover; 
+}
+#content{
+    margin: 0 auto;
+    padding: 1% 5%;
+    padding-bottom: 0;
+    font-size: medium;
+    font-family:Arial ;
+  }  
+.welcome{
+     text-align: center;
+     color: rgb(255, 255, 255);
+     background: linear-gradient(rgb(2, 2, 2),rgba(116, 116, 116, 0));
+     padding-top: 1%;
+     padding-bottom: 1%;
+     font-weight: bold;
+     font-family: 'Varela Round';   
+     text-shadow:  5px 10px 10px;
+}
+p{
+  font-family:'Arial';
+  margin-top: 1%;
+  font-size:'large';
+  font-weight:500;
+}
+section{
+  flex:'left';
+  display: 'inline-flex';
+}
+.rightside{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 10%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 100%;  
+}
+.splitleft{
+  flex: 'left';
+  position:'absolute';
+  left: 20px;
+  top:80px;
+  padding: 40px;
+  width: 800px; 
+  height:80vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.397),rgba(255, 255, 255, 0.397));   
+  box-shadow: 5px 10px 10px;
+}
+.splitright{
+  flex: left;
+  position:absolute;
+  top:160px;
+  padding: 10px;
+  width:500px;
+  right: 10px;
+  margin-right: 10px;   
+}
+.btn {
+  font-size: 18px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 2px 2px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition-duration: .5s;
+}  
+.buttons_div{
+margin-bottom: 30px;
+margin-right: 50px;    
+}  
+.heading{
+font-family: 'Tw cen MT';
+font-weight: 700;
+font-size: 2.1rem;
+display: 'inline';
+} 
+#predict_button{
+    margin-right: 15px;
+    color: rgba(0, 153, 255, 0.781);;
+    font-weight: bold;
+}  
+#clear_button{
+  margin-left: 15px;
+  font-weight: bold;
+  color: rgba(0, 153, 255, 0.781);;
+}
+#prediction_heading{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 7.5%;
+}
+#result{
+    font-size: 5rem;
+}    
+#frame{
+    margin-right: 10%;
+    box-shadow: 3px 5px 5px;
+}  
+.predicted_answer{
+    text-align: center;
+    margin: 0 auto;
+    padding: 3% 5%;
+    padding-top: 0;
+    /* padding-left: 10%; */
+}  
+
+  
+ 

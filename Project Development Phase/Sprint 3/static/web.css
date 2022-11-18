@@ -1,0 +1,102 @@
+*{
+    font-family:'Trebuchet MS';
+}
+body{
+background-image: linear-gradient(45deg, rgba(245, 69, 66, 0.452), rgba(8, 82, 156, 0.637)), url(number.jpg);
+background-repeat: no-repeat;
+background-attachment:fixed ;
+background-size: cover;
+}
+#rectangle{
+ text-align: center;
+ width:400px;
+ height:150px;
+ border-radius: 25px;
+ position:absolute;
+ top:62%;
+ left:50%;
+ transform:translate(-50%,-50%);
+}
+
+#ans{
+text-align: center;
+font-size: 30spx;
+margin: 0 auto;
+padding: 3% 5%;
+padding-top: 15%;
+color: rgb(230, 230, 230);
+}
+.btn {
+font-size: 18px;
+padding: 10px;
+background: rgb(255, 255, 255);
+border: 1px solid rgb(0, 0, 0);
+box-shadow: 1px 2px 2px; 
+margin-top: 20px;
+margin-bottom: 20px;
+transition-duration: .5s;
+padding: 5px;
+border-radius: 5px;
+}  
+a{
+text-decoration: none;
+}
+#goback{
+margin-right: 15px;
+color: rgba(0, 153, 255, 0.781);;
+font-weight: bold;
+}
+#content{
+  margin: 0 auto;
+  padding: 1% 5%;
+  padding-bottom: 0;
+  font-size: medium;
+  font-family:Arial ;
+} 
+#frame{
+  margin-right: 10%;
+  box-shadow: 3px 5px 5px;
+}
+.rightside{
+  background: linear-gradient(rgba(253, 253, 253, 0.397),rgba(189, 81, 199, 0.397));   
+    text-align: center;
+    margin-top: 2%;
+    padding-left: 10%;
+    padding-top: 30px;
+    padding-bottom:px;
+    width: 100%;  
+    box-shadow:2px 2px 3px 3px ;
+  }
+  .splitright{
+  flex: left;
+  position:absolute;
+  top:30px;
+  padding: 20px;
+  width:500px;
+  right: 10px;
+  margin-right: 450px;   
+}
+.btn {
+  font-size: 18px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 2px 2px; 
+  margin-top: 20px;
+  margin-bottom: 5px;
+  transition-duration: .5s;
+}  
+.buttons_div{
+margin-right: 50px;    
+padding-bottom: 20px;
+}  
+#predict_button{
+  margin-right: 15px;
+  color: rgba(0, 153, 255, 0.781);;
+  font-weight: bold;
+}  
+#clear_button{
+margin-left: 15px;
+font-weight: bold;
+color: rgba(0, 153, 255, 0.781);;
+}
